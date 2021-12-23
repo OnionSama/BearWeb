@@ -1,6 +1,6 @@
 import './App.css';
 import HeadMenu from './HeadMenu.js'
-import merry_christmas_png from './merry_christmas.png'
+import merry_christmas_png from './img/merry_christmas.png'
 
 
 function App() {
