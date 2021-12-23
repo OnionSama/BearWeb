@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import HeadMenu from './HeadMenu.js'
+import merry_christmas_png from './merry_christmas.png'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
-      </header>
+      <HeadMenu />
+        <div className="App-img-div">
+          <img src={merry_christmas_png} className="mc-img" alt="Merry Christmas" />
+        </div>
     </div>
   );
 }
