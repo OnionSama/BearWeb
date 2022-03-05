@@ -1,17 +1,10 @@
 import './App.css';
-import HeadMenu from './HeadMenu.js'
-import merry_christmas_png from './img/merry_christmas.png'
+import { useRoutes } from 'react-router-dom';
+import {routers} from "./router/routers";
 
 
 function App() {
-  return (
-    <div className="App">
-      <HeadMenu />
-        <div className="App-img-div">
-          <img src={merry_christmas_png} className="mc-img" alt="Merry Christmas" />
-        </div>
-    </div>
-  );
+  return useRoutes(routers);
 }
 
 export default App;
